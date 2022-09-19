@@ -16,7 +16,7 @@ putchar(str[j]);
 }
 else
 {
-for (max = ( i - 1) / 2; str[max] != '\0'; max++)
+for (max = (i - 1) / 2; str[max] != '\0'; max++)
 putchar(str[max + 1]);
 }
 putchar('\n');
