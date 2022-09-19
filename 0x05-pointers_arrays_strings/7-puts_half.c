@@ -20,5 +20,5 @@ while (j <= max)
 putchar(str[j]);
 j++;
 }
-putchar('\n');  
+putchar('\n');
 }
