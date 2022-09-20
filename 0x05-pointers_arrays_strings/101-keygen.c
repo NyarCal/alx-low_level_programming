@@ -5,8 +5,10 @@
 int password(int password_length) {
 char list[] = "1234567890abcdefghijklmnoqprstuvwyzxABCDEFGHIJKLMNOQPRSTUYWVZX!@#$^&*?";
 srand(time(NULL));
+int i;
 for(int i = 0; i < password_length; i++)
 {
 printf("%c", list[rand() % (sizeof list - 1)]);
 }
+ printf('\n');
 }
