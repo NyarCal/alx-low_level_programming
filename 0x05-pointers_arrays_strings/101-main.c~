@@ -1,0 +1,15 @@
+#include "main.h"
+/**
+ * password - checks password length
+ *@password_length: - length of password to be generated.
+ * Return - Always returns 0
+ */
+int main() {
+  
+  int password_length= 8;
+   
+  password(password_length);
+  
+  return 0;
+  
+}
