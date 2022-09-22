@@ -14,7 +14,7 @@ while (c[x] != '\0')
 if (c[x] >= 'a' && c[x] <= 'z')
 {
 c[x] = c[x] - 'a' + 'A';
-}      
+}
 x++;
 }
 return (c);
