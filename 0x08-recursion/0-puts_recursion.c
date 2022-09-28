@@ -5,7 +5,8 @@
  * @t: string to be printed
  * Return: Always 0.
  */
-void _puts_recursion(char *t) {
+void _puts_recursion(char *t)
+{
 if (*t == '\0')
 return;
 printf("%c", *t);
