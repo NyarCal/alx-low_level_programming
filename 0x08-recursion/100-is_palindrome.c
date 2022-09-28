@@ -42,7 +42,7 @@ int palindrome(char str[], int st, int end)
 {
 if (st >= end)
 return (1);
-if (str[st] != str[end])    
+if (str[st] != str[end])
 return (0);
 if (st <= end || st < end + 1)
 return (palindrome(str, st + 1, end - 1));
