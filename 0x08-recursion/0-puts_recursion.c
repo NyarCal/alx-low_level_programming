@@ -9,5 +9,5 @@ void _puts_recursion(char *t) {
 if (*t == '\0')
 return;
 printf("%c", *t);
-print(++t);
+printf(++t);
 }
