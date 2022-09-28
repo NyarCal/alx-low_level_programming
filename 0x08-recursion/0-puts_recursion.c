@@ -7,9 +7,14 @@
  */
 void _puts_recursion(char *t)
 {
-if (*t == '\0')
-return;
+if (*t != '\0')
+{
 _putchar(*(t + 0));
 _puts_recursion((t + 1));
-_putchar('\n'); 
+}
+else
+{
+_putchar('\n');
+return;
+}
 }
