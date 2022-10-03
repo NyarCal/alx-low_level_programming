@@ -29,7 +29,7 @@ for (; hgt_index >= 0; hgt_index--)
 free(twoD[hgt_index]);
 free(twoD);
 return (NULL);
-}      
+}
 }
 for (hgt_index = 0; hgt_index < height; hgt_index++)
 {
