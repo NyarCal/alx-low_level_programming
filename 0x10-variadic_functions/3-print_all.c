@@ -79,7 +79,7 @@ while (format && format[i])
 {
 j = 0;
 while (p[j].t != NULL)
-{	  
+{
 if (*(p[j].t) == format[i])
 {
 printf("%s", separator);
