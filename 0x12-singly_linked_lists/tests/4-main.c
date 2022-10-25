@@ -4,7 +4,7 @@
 
 #include <stdio.h>
 
-#include "lists.h"
+#include "../lists.h"
 
 
 
