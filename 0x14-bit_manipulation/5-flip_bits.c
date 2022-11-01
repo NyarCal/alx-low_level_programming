@@ -17,9 +17,5 @@ while (xor > 0)
 bits += (xor & 1);
 xor >>= 1;
 }
-  
-
-  
-  return (bits);
-  
+return (bits);
 }
